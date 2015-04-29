@@ -1,0 +1,4 @@
+[Project]
+Name=YaGraphProgram
+Manager=KDevCMakeManager
+VersionControl=kdevgit
