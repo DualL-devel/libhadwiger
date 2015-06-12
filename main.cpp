@@ -1,10 +1,7 @@
-#include <QCoreApplication>
-#include "YaGraphProgram.h"
-
+#include <QtCore/QtGlobal>
+#include <QtCore/QDebug>
 
 int main(int argc, char** argv)
 {
-    QCoreApplication app(argc, argv);
-    YaGraphProgram yagraphprogram;
-    return app.exec();
+   
 }
