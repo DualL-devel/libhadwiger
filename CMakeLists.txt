@@ -15,12 +15,5 @@ set_property(GLOBAL PROPERTY CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt5 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS Core Test)
 
-target_link_libraries(yagraphprogram
-    Qt5::Core
-    libhadwiger
-)
-
-install(TARGETS yagraphprogram RUNTIME DESTINATION bin)
-
 add_subdirectory(libhadwiger)
 add_subdirectory(autotests)
